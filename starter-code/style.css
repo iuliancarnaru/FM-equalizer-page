@@ -4,6 +4,7 @@
   --color-yellow: #ffb964;
   --color-light-grey: #fcfaf9;
   --color-black: #191826;
+  --radius: 1.2rem;
 }
 
 *,
@@ -20,5 +21,54 @@ html {
 }
 
 body {
-  font-size: 1.6rem;
+  font: normal normal 400 1.6rem/2.6rem "IBM Plex Sans", serif;
+}
+
+.container {
+  max-width: 144rem;
+  margin: 0 auto;
+  background-color: var(--color-light-grey);
+  padding: 6.2rem 16.5rem 9.1rem;
+}
+
+.header__logo {
+  margin-bottom: 12.7rem;
+}
+
+.header__heading {
+  font-size: 8.8rem;
+  font-weight: 700;
+  line-height: 8.8rem;
+  letter-spacing: -1px;
+  margin-bottom: 4rem;
+}
+
+.header__details {
+  font-size: 2rem;
+  line-height: 3.4rem;
+  margin-bottom: 32.1rem;
+}
+
+.cta {
+  height: 60rem;
+  background-color: var(--color-black);
+  border-radius: var(--radius);
+  color: var(--color-light-grey);
+  margin-bottom: 20.2rem;
+}
+
+footer {
+  display: flex;
+  align-items: flex-start;
+  gap: 13.7rem;
+  /*justify-content: space-between;*/
+}
+
+.footer__copy {
+  max-width: 36.6rem;
+}
+
+.footer_social {
+  margin-left: auto;
+  align-self: center;
 }
