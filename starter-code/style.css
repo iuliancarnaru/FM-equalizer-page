@@ -29,6 +29,17 @@ body {
   margin: 0 auto;
   background-color: var(--color-light-grey);
   padding: 6.2rem 16.5rem 9.1rem;
+  position: relative;
+}
+
+.pattern-1 {
+  position: absolute;
+  top: -4rem;
+  right: 0;
+}
+
+header {
+  max-width: 85.5rem;
 }
 
 .header__logo {
@@ -55,6 +66,32 @@ body {
   border-radius: var(--radius);
   color: var(--color-light-grey);
   margin-bottom: 20.2rem;
+  position: relative;
+}
+
+.cta__app {
+  width: 31.2rem;
+  height: auto;
+  position: absolute;
+  top: -21.3rem;
+  left: 10.2rem;
+  z-index: 2;
+}
+
+.pattern-2 {
+  position: absolute;
+  left: 33.6rem;
+  top: -4rem;
+}
+
+.cta__copy {
+  background-color: var(--color-orange);
+  position: absolute;
+  top: 9rem;
+  right: 9.5rem;
+  max-width: 44.6rem;
+  padding: 5.8rem 5.4rem 4.8rem;
+  border-radius: var(--radius);
 }
 
 footer {
