@@ -1,0 +1,24 @@
+:root {
+  --color-blue: #66e2dc;
+  --color-orange: #fa7453;
+  --color-yellow: #ffb964;
+  --color-light-grey: #fcfaf9;
+  --color-black: #191826;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 1.6rem;
+}
